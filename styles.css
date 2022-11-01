@@ -7,7 +7,7 @@
     flex-direction:column;
     justify-content: center;
     align-items: center;
-    background-color: brown;
+    
 }
 #profile__img{
     border-radius: 50%;
@@ -15,7 +15,9 @@
     height: 150px;
     margin: 10px;
 }
-
+.slack{
+    display:none;
+}
 a {
     text-decoration: none;
 }
