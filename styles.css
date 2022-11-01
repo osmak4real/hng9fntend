@@ -1,61 +1,83 @@
-*{
+* {
     box-sizing: border-box;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
 }
-#holder{
-    width: 100%;
+
+#holder {
+    /* width: 100%;
     display:flex;
     flex-direction:column;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center; */
+
+    width: 100%;
+    height: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
 }
-#profile__img{
+
+#profile__img {
     border-radius: 50%;
     width: 150px;
     height: 150px;
     margin: 10px;
 }
-.slack{
-    display:none;
+
+.slack {
+    display: none;
 }
+
 a {
     text-decoration: none;
 }
+button:hover{
+    background-color:white;
+}
 
-#links_holder{
+#links_holder {
     display: flex;
     flex-direction: column;
-    width:min-content
+    justify-content: center;
+    align-items: center;
+
 }
-#links_holder button{
+
+#links_holder button {
     border: 1px solid rgb(179, 177, 177);
-    padding:1.5em;
-    width:550px;
+    padding: 1.5em;
+    width: 80%;
     margin: 1em;
     border-radius: 10px;
 }
-
-#logo_holder img{
-    padding: 10px;
-}
-
-#footer_holder{
-    width:100%;
+#logo_holder{
     display: flex;
-    justify-content: center; 
+    justify-content: center;
+}
+#logo_holder img {
+    padding: 10px;
+    
 }
 
-#footer_holder img{
-    padding:35px;
+#footer_holder {
+    display: flex;
+    justify-content:space-between;
+    padding-top: 5em;
+    
 }
 
-@media (min-width: 768px) {
-  .link {
-    width: 100%;
+#footer_holder img {
+    padding: 15px;
+}
+
+
+@media screen and (max-width: 600px) {
+  #footer_holder {
+    flex-direction: column;
   }
 }
-/* @media (min-width: 576px) {
-  #holder {
-    max-width: 540px;
-  }
-} */
