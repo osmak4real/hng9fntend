@@ -48,3 +48,14 @@ a {
 #footer_holder img{
     padding:35px;
 }
+
+@media (min-width: 768px) {
+  .link {
+    width: 100%;
+  }
+}
+@media (min-width: 576px) {
+  #holder {
+    max-width: 540px;
+  }
+}
