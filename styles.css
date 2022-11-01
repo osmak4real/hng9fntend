@@ -54,8 +54,8 @@ a {
     width: 100%;
   }
 }
-@media (min-width: 576px) {
+/* @media (min-width: 576px) {
   #holder {
     max-width: 540px;
   }
-}
+} */
