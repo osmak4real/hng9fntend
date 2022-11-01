@@ -35,6 +35,7 @@
 
 a {
     text-decoration: none;
+    color: black;
 }
 button:hover{
     background-color:white;
@@ -49,11 +50,12 @@ button:hover{
 }
 
 #links_holder button {
-    border: 1px solid rgb(179, 177, 177);
+    border: none;
     padding: 1.5em;
     width: 80%;
     margin: 1em;
     border-radius: 10px;
+    
 }
 #logo_holder{
     display: flex;
@@ -73,11 +75,18 @@ button:hover{
 
 #footer_holder img {
     padding: 15px;
+    width: auto;
+    height: auto;
 }
 
 
 @media screen and (max-width: 600px) {
   #footer_holder {
-    flex-direction: column;
-  }
+    flex-direction:column;
+    }
+    #footer_holder img {
+    object-fit: contain;
+    width: 50%;
 }
+}
+
